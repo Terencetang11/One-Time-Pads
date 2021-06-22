@@ -1,0 +1,6 @@
+#!/bin/bash
+gcc --std=c99 -o ../enc_server ../src/enc_server.c
+gcc --std=c99 -o ../enc_client ../src/enc_client.c
+gcc --std=c99 -o ../dec_server ../src/dec_server.c
+gcc --std=c99 -o ../dec_client ../src/dec_client.c
+gcc --std=c99 -o ../keygen ../src/keygen.c
